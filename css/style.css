@@ -1,0 +1,80 @@
+/*----------------------------------------Home CSS------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+html, body {
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+}
+.main{
+	background-color: #f8f9fa;
+}
+.navbar {
+	padding: .8rem;
+}
+.navbar-nav li {
+	padding-right: 20px;
+}
+.nav-link{
+	font-size: 1.1em !important;
+}
+.container h1 {
+	text-align: center;
+}
+.container a {
+	text-align: center;
+}
+.carousel-inner img {
+	width: 1500px;
+	height: 625px;
+	animation: 10s slider infinite;
+}
+.container-fluid h2 {
+	font-size: 35px;
+}
+.social a {
+	font-size: 3.9em;
+	padding: 3rem;
+}
+.fa-facebook-square {
+	color: #3b5998;
+}
+.fa-twitter {
+	color: #00aced; 
+}
+.fa-google-plus-g {
+	color: #dd4b39;
+}
+.fa-instagram {
+	color: #517fa4;
+}
+.fa-whatsapp {
+	color: green;
+}
+.fa-facebook-square:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-whatsapp:hover {
+	color: grey;
+}
+footer {
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	font-size: 25px;
+	padding-top: 2rem;
+}
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+footer a {
+	color: #d5d5d5;
+}
+hr.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
